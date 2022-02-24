@@ -1,0 +1,23 @@
+.root {
+  --primary-color: #a8815d;
+  --secondary-color: #f2ede7;
+  --third-color: #000000;
+  --fourth-color: #83181b;
+  --fifth-color: #cda2a3;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    #83181b 0%,
+    #83181b 50%,
+    #cda2a3 50%,
+    #cda2a3 100%
+  );
+  font-family: "Literata", serif;
+}
