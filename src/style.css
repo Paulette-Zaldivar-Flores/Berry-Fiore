@@ -53,6 +53,7 @@ p {
   top: 0px;
   float: left;
   font-family: "Nunito", sans-serif;
+  color: red;
 }
 
 .navbar ul li {
@@ -63,4 +64,20 @@ p {
   max-width: 150px;
   border-radius: 5px;
   border: 2px solid #83181b;
+}
+img {
+  background-color: white;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+#quote {
+  box-shadow: 5px 5px 5px rgba(29, 28, 28, 0.582);
+  text-align: center;
+  border: 5px solid #f19f9f;
+  border-radius: 5px;
+  font-family: "Nunito", sans-serif;
+  font-size: 40px;
 }
