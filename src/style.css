@@ -24,7 +24,7 @@ body {
 .story {
   box-shadow: 5px 5px 5px rgba(29, 28, 28, 0.582);
   text-align: justify;
-  border: 5px solid #f19f9f;
+  border: 5px solid #a8815d;
   border-radius: 5px;
   background: var(--fifth-color);
   text-align: left;
@@ -53,7 +53,6 @@ p {
   top: 0px;
   float: left;
   font-family: "Nunito", sans-serif;
-  color: red;
 }
 
 .navbar ul li {
@@ -76,8 +75,19 @@ h2 {
 #quote {
   box-shadow: 5px 5px 5px rgba(29, 28, 28, 0.582);
   text-align: center;
-  border: 5px solid #f19f9f;
-  border-radius: 5px;
+  border-radius: 10px;
+  border: 10px solid #a8815d;
   font-family: "Nunito", sans-serif;
   font-size: 40px;
+}
+
+#berry3 {
+  border-radius: 50%;
+}
+me {
+  font-size: 15px;
+}
+.carousel-inner .carousel-item {
+  height: 300px;
+  width: 300px;
 }
