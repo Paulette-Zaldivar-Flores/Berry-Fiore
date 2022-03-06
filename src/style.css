@@ -12,19 +12,13 @@
 }
 body {
   height: 100vh;
-  background: linear-gradient(
-    to right,
-    #83181b 0%,
-    #83181b 50%,
-    #cda2a3 50%,
-    #cda2a3 100%
-  );
+  background: var(--secondary-color);
   font-family: "Nunito", sans-serif;
 }
 .story {
   box-shadow: 5px 5px 5px rgba(29, 28, 28, 0.582);
   text-align: justify;
-  border: 5px solid #a8815d;
+  border: 5px solid #83181b;
   border-radius: 5px;
   background: var(--fifth-color);
   text-align: left;
@@ -65,7 +59,7 @@ p {
   border: 2px solid #83181b;
 }
 img {
-  background-color: white;
+  background-color: #83181b;
 }
 
 h1,
@@ -75,19 +69,35 @@ h2 {
 #quote {
   box-shadow: 5px 5px 5px rgba(29, 28, 28, 0.582);
   text-align: center;
-  border-radius: 10px;
-  border: 10px solid #a8815d;
+  border-radius: 5px;
+  border: 5px solid #83181b;
   font-family: "Nunito", sans-serif;
   font-size: 40px;
+}
+#divider {
+  background-color: white;
 }
 
 #berry3 {
   border-radius: 50%;
+  border: 5px solid #83181b;
 }
-me {
-  font-size: 15px;
+#me {
+  font-size: 35px;
 }
-.carousel-inner .carousel-item {
-  height: 300px;
-  width: 300px;
+#location {
+  box-shadow: 5px 5px 5px rgba(29, 28, 28, 0.582);
+  text-align: center;
+  border-radius: 5px;
+  border: 5px solid #83181b;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+}
+#carouselBerry .carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 32rem;
+  overflow: hidden;
+  color: white;
+  background: #777;
 }
