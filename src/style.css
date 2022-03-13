@@ -22,10 +22,11 @@ body {
   border-radius: 5px;
   background: var(--fifth-color);
   text-align: left;
+  padding: 10px 10px;
 }
 .card {
   margin: 0 auto;
-  float: none;
+
   margin-bottom: 10px;
 }
 p {
@@ -96,8 +97,15 @@ h2 {
 #carouselBerry .carousel-item img {
   object-fit: cover;
   object-position: center;
-  height: 32rem;
+  height: 20rem;
   overflow: hidden;
   color: white;
   background: #777;
+}
+
+#carouselBerry {
+  width: 20rem;
+}
+#carousel-story {
+  display: flex;
 }
