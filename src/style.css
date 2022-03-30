@@ -123,8 +123,8 @@
 .navbar {
   margin: 0 !important;
   width: 100%;
-  padding: 20px;
-  margin-bottom: 20px;
+  padding: 10px 10px;
+  margin-bottom: 10px;
   top: 0px;
   font-family: "Nunito", sans-serif;
 }
@@ -157,9 +157,15 @@ img {
   background-color: #83181b;
 }
 
-h1,
+h1 {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  color: #f2ede7;
+}
 h2 {
   text-align: center;
+  font-family: "Dancing Script", cursive;
+  color: #000000;
 }
 
 #carouselBerry .carousel-item img {
@@ -176,8 +182,8 @@ h2 {
   text-align: center;
   border-radius: 5px;
   border: 5px solid #83181b;
-  font-family: "Nunito", sans-serif;
-  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
 }
 #divider {
   background-color: white;
@@ -189,6 +195,7 @@ h2 {
 }
 #me {
   font-size: 40px;
+  color: var(--third-color);
 }
 
 .Do {
@@ -218,7 +225,11 @@ ul {
   font-size: 20px;
 }
 .roses-background {
-  background-size: 80% auto;
+  background-image: url ("images/singlerose.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: center;
+  left: 50%;
+  bottom: 0px;
 }
