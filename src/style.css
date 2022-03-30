@@ -151,23 +151,8 @@
 
 body {
   height: 100vh;
-  background: var(--secondary-color);
   font-family: "Nunito", sans-serif;
 }
-.story {
-  box-shadow: 5px 5px 5px rgba(29, 28, 28, 0.582);
-  text-align: justify;
-  border: 5px solid #83181b;
-  border-radius: 5px;
-  background: var(--fifth-color);
-  text-align: left;
-  padding: 10px 10px;
-}
-.card {
-  margin: 0 auto;
-  margin-bottom: 10px;
-}
-
 img {
   background-color: #83181b;
 }
@@ -176,6 +161,16 @@ h1,
 h2 {
   text-align: center;
 }
+
+#carouselBerry .carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 30rem;
+  overflow: hidden;
+  color: white;
+  background: #777;
+}
+
 #quote {
   box-shadow: 5px 5px 5px rgba(29, 28, 28, 0.582);
   text-align: center;
@@ -193,7 +188,26 @@ h2 {
   border: 5px solid #83181b;
 }
 #me {
-  font-size: 35px;
+  font-size: 40px;
+}
+
+.Do {
+  box-shadow: 5px 5px 5px rgba(29, 28, 28, 0.582);
+  text-align: justify;
+  border: 5px solid #83181b;
+  border-radius: 5px;
+  background: var(--fifth-color);
+  text-align: left;
+  padding: 30px 30px;
+}
+ul {
+  list-style: none;
+  line-height: 2.5em;
+  padding: 20px 20px;
+}
+.card {
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 #location {
   box-shadow: 5px 5px 5px rgba(29, 28, 28, 0.582);
@@ -203,11 +217,8 @@ h2 {
   font-family: "Nunito", sans-serif;
   font-size: 20px;
 }
-#carouselBerry .carousel-item img {
-  object-fit: cover;
-  object-position: center;
-  height: 30rem;
-  overflow: hidden;
-  color: white;
-  background: #777;
+.roses-background {
+  background-size: 80% auto;
+  background-repeat: no-repeat;
+  background-position: center;
 }
