@@ -6,11 +6,6 @@
   --fifth-color: #cda2a3;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-}
-
 .fade-in-image {
   animation: fadeIn ease 5s;
   -webkit-animation: fadeIn ease 5s;
@@ -150,8 +145,8 @@
 }
 
 body {
-  height: 100vh;
   font-family: "Josefin Sans", sans-serif;
+  margin-top: 100px 0;
 }
 
 img {
@@ -217,10 +212,12 @@ h2 {
   padding: 30px 30px;
   font-family: "Josefin Sans", sans-serif;
 }
+
 ul {
   list-style: none;
-  line-height: 2.5em;
+  line-height: 2em;
   padding: 20px 20px;
+  text-align: justify;
 }
 .card {
   margin: 0 auto;
@@ -248,6 +245,110 @@ ul {
   border: 3px solid #83181b;
   border-radius: 5px;
   text-align: center;
+}
+
+advance {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.navigation-links a {
+  margin: 20px;
+}
+
+.primary-link {
+  background: #83181b;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #fff !important;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 10px 20px;
+  border: none;
+  border: 1px solid #cda2a3;
+  transition: background 200ms ease, border-color 200ms ease;
+}
+.primary-link:hover {
+  background: #cda2a3;
+  color: fff;
+}
+
+footer {
+  bottom: 0px;
+  width: 100%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+footer {
+  position: relative;
+  background-color: #83181b;
+}
+footer::before,
+footer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 9999px;
+  background-color: inherit;
+}
+footer::before {
+  right: 100%;
+}
+footer::after {
+  left: 100%;
+}
+
+#icons {
+  font-size: 80px;
+  padding: 5px 10px;
+  color: var(--primary-color);
+}
+footer .email {
+  margin-bottom: 40px;
+  margin: 0 auto;
+}
+
+footer .email a {
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#contact a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 30px;
+}
+#contact a:hover {
+  color: #cda2a3;
+}
+#contact-us i {
+  font-size: 40px;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px;
+}
+#contact-us i:hover {
+  color: #cda2a3;
+}
+
+.intro {
+  width: 100%;
+  color: white;
+}
+#link a {
+  text-decoration: none;
+  color: white;
+}
+#link a:hover {
+  color: #cda2a3;
 }
 
 @media (max-width: 900px) {
