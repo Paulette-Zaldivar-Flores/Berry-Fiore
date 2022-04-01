@@ -1,2 +1,3 @@
-# Berry-Fiore-Webpage
-Web-Page for Berry Fiore- This is my latest project for a sweets company in San Diego, CA. In progress...
+# Berry Fiore Webpage
+This is a multi page website for a sweets company based in San Diego, California.
+        
