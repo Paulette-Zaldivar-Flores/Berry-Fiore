@@ -118,19 +118,14 @@
 .navbar {
   margin: 0 !important;
   width: 100%;
-  padding: 10px 10px;
-  margin-bottom: 10px;
+  padding: 2px 2px;
+  margin-bottom: 5px;
   top: 0px;
   font-family: "Josefin Sans", sans-serif;
 }
 
 .navbar-custom {
-  background: rgb(238, 174, 202);
-  background: radial-gradient(
-    circle,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(147, 9, 9, 1) 0%
-  );
+  background-color: #83181b;
 }
 
 .navbar ul li {
@@ -139,7 +134,7 @@
 }
 
 .logo {
-  max-width: 150px;
+  max-width: 125px;
   border-radius: 5px;
   border: 2px solid #83181b;
 }
@@ -149,8 +144,15 @@ body {
   margin-top: 100px 0;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 img {
   background-color: #83181b;
+  display: block;
+  max-width: 100%;
 }
 .card-img-top {
   max-width: 300px;
@@ -231,6 +233,15 @@ ul {
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
 }
+
+#custom {
+  text-align: justify;
+  padding: 20px 15px;
+}
+
+#call {
+  text-align: center;
+}
 .roses-background {
   background-image: url ("images/singlerose.jpg");
   background-size: cover;
@@ -281,15 +292,17 @@ advance {
 }
 
 footer {
-  bottom: 0px;
+  margin-bottom: 0px;
   width: 100%;
   font-family: "Josefin Sans", sans-serif;
+  height: 100px;
 }
 
 footer {
   position: relative;
-  background-color: #83181b;
+  background: #83181b;
 }
+
 footer::before,
 footer::after {
   content: "";
@@ -312,7 +325,7 @@ footer::after {
   color: var(--primary-color);
 }
 footer .email {
-  margin-bottom: 40px;
+  margin-bottom: 0px;
   margin: 0 auto;
 }
 
@@ -352,9 +365,13 @@ footer .email a {
 }
 
 @media (max-width: 900px) {
+  html {
+    max-width: 900px;
+  }
   #berry3 {
     width: 300px;
     display: block;
+
     margin-left: auto;
     margin-right: auto;
   }
@@ -370,5 +387,16 @@ footer .email a {
   #carousel-story {
     max-width: 150px;
     max-height: 150px;
+    margin-bottom: 0;
+  }
+
+  #business {
+    margin-top: 25px;
+  }
+
+  footer {
+    padding: 0px 0px;
+    font-size: 14px;
+    height: 78px;
   }
 }
