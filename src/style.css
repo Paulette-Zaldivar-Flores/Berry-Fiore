@@ -367,6 +367,10 @@ footer .email a {
   html {
     max-width: 900px;
   }
+
+  h1 {
+    margin-top: 5px;
+  }
   #berry3 {
     width: 300px;
     display: block;
@@ -387,10 +391,14 @@ footer .email a {
     max-width: 150px;
     max-height: 150px;
     margin-bottom: 0;
+    margin-top: 0;
   }
 
   #business {
     margin-top: 25px;
+  }
+  #me {
+    font-size: 25px;
   }
 
   footer {
