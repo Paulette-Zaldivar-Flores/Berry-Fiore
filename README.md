@@ -1,6 +1,6 @@
 # Berry Fiore Webpage 🌹
 > A multi page website for a sweets company based in San Diego, California.
-> Live demo [_here_](https://void321.github.io/Berry-Fiore/).
+> Live demo [_here_](https://paulette-zaldivar-flores.github.io/Berry-Fiore/).
 
 ## Table of Contents
 * [General Info](#general-information)
