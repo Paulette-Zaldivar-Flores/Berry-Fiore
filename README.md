@@ -65,7 +65,7 @@ To do:
  <ul><li>This README.md was inspired by <a href ="https://github.com/ritaly"> Ritaly</a></li></ul>
 
 ## Contact
-Created by [Paulette](https://pzf.netlify.app/) - feel free to contact me!
+Created by [Paulette](https://paulette-zaldivar-flores.netlify.app/) - feel free to contact me!
 
 
 
