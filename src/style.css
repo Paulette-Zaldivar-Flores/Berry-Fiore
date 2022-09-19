@@ -115,17 +115,24 @@
     animation-timing-function: ease-out;
   }
 }
+.fa-ice-cream {
+  color: rgb(255, 255, 255);
+}
+
+.fa-ice-cream:hover {
+  color: #323131;
+}
 .navbar {
   margin: 0 !important;
   width: 100%;
-  padding: 2px 2px;
-  margin-bottom: 5px;
   top: 0px;
-  font-family: "Josefin Sans", sans-serif;
+  padding: 0px !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .navbar-custom {
-  background-color: #83181b;
+  background-color: #cda2a3;
 }
 
 .navbar ul li {
@@ -133,10 +140,38 @@
   display: inline;
 }
 
+a.nav-link {
+  letter-spacing: 0.1em;
+  font-size: 16px;
+}
+
+nav .navbar-nav li a {
+  color: black !important;
+}
+
+nav .navbar-nav li a:hover {
+  color: white !important;
+  transition: ease-in 0.3s;
+}
+
+.nav-item {
+  font-weight: bolder;
+}
+
+.navbar-collapse {
+  text-align: center;
+  justify-content: center;
+}
+
+a.nav-link {
+  position: relative;
+}
+
 .logo {
-  max-width: 125px;
+  padding: 0 px;
+  max-width: 100px;
   border-radius: 5px;
-  border: 2px solid #83181b;
+  border: 1px solid #be1e2f;
 }
 
 body {
@@ -149,6 +184,7 @@ body {
   overflow-x: hidden;
   max-width: 100%;
   max-height: 100%;
+  background-color: #fcfde5;
 }
 
 html {
@@ -190,10 +226,10 @@ h2 {
 }
 
 #quote {
-  box-shadow: 5px 5px 5px rgba(29, 28, 28, 0.582);
+  box-shadow: 2px 2px 3px rgba(29, 28, 28, 0.582);
   text-align: center;
   border-radius: 5px;
-  border: 5px solid #83181b;
+  border: 3px solid #be1e2f;
   font-family: "Dancing Script", cursive;
   font-size: 60px;
 }
@@ -203,7 +239,8 @@ h2 {
 
 #berry3 {
   border-radius: 50%;
-  border: 5px solid #83181b;
+  border: 3px solid #be1e2f;
+  box-shadow: 2px 2px 3px rgba(29, 28, 28, 0.582);
 }
 #me {
   font-size: 40px;
@@ -211,9 +248,9 @@ h2 {
 }
 
 .Do {
-  box-shadow: 5px 5px 5px rgba(29, 28, 28, 0.582);
+  box-shadow: 2px 2px 3px rgba(29, 28, 28, 0.582);
   text-align: justify;
-  border: 5px solid #83181b;
+  border: 3px solid #be1e2f;
   border-radius: 5px;
   text-align: left;
   padding: 30px 30px;
@@ -231,10 +268,10 @@ ul {
   margin-bottom: 10px;
 }
 #location {
-  box-shadow: 5px 5px 5px rgba(29, 28, 28, 0.582);
+  box-shadow: 2px 2px 3px rgba(29, 28, 28, 0.582);
   text-align: center;
   border-radius: 5px;
-  border: 5px solid #83181b;
+  border: 3px solid #be1e2f;
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
 }
@@ -258,7 +295,7 @@ ul {
 }
 #main-products {
   text-align: justify;
-  border: 3px solid #83181b;
+  border: 3px solid;
   border-radius: 5px;
   text-align: center;
 }
@@ -280,7 +317,7 @@ advance {
 }
 
 .primary-link {
-  background: #83181b;
+  background: #be1e2f;
   border-radius: 50px;
   text-decoration: none;
   color: #fff !important;
@@ -305,7 +342,7 @@ footer {
 
 footer {
   position: relative;
-  background: #83181b;
+  background: #cda2a3;
 }
 
 footer::before,
