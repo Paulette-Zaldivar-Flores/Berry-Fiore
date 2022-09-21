@@ -122,6 +122,9 @@
     animation-timing-function: ease-out;
   }
 }
+
+/* NavBar */
+
 .fa-ice-cream {
   color: rgb(255, 255, 255);
 }
@@ -182,6 +185,19 @@ a.nav-link {
   border: 1px solid #be1e2f;
 }
 
+/* Body */
+
+h1 {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  color: black;
+}
+h2 {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  color: black;
+}
+
 body {
   font-family: "Josefin Sans", sans-serif;
   margin-top: 100px 0;
@@ -196,9 +212,10 @@ body {
 }
 
 html {
-  overscroll-behavior-y: hidden;
+  overscroll-behavior-y: none;
 }
 
+/* Card Images */
 img {
   background-color: #83181b;
   display: block;
@@ -211,17 +228,6 @@ img {
 
 .card-text {
   font-family: "Josefin Sans", sans-serif;
-}
-
-h1 {
-  text-align: center;
-  font-family: "Nunito", sans-serif;
-  color: black;
-}
-h2 {
-  text-align: center;
-  font-family: "Nunito", sans-serif;
-  color: black;
 }
 
 #carouselBerry .carousel-item img {
@@ -255,11 +261,8 @@ h2 {
   color: var(--third-color);
 }
 
-.Do {
-  box-shadow: 2px 2px 3px rgba(29, 28, 28, 0.582);
+#business {
   text-align: justify;
-  border: 3px solid #be1e2f;
-  border-radius: 5px;
   text-align: left;
   padding: 30px 30px;
   font-family: "Josefin Sans", sans-serif;
@@ -274,12 +277,12 @@ ul {
 .card {
   margin: 0 auto;
   margin-bottom: 10px;
+  border: 3px solid #be1e2f;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px rgba(29, 28, 28, 0.582);
 }
 #location {
-  box-shadow: 2px 2px 3px rgba(29, 28, 28, 0.582);
   text-align: center;
-  border-radius: 5px;
-  border: 3px solid #be1e2f;
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
 }
@@ -292,26 +295,6 @@ ul {
 #call {
   text-align: center;
 }
-.roses-background {
-  background-image: url ("images/singlerose.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  left: 50%;
-  bottom: 0px;
-}
-#main-products {
-  text-align: justify;
-  border: 3px solid;
-  border-radius: 5px;
-  text-align: center;
-}
-
-advance {
-  margin-left: 10px;
-  margin-right: 10px;
-}
 
 .navigation-links {
   display: flex;
@@ -323,6 +306,8 @@ advance {
 .navigation-links a {
   margin: 20px;
 }
+
+/* Buttons */
 
 .primary-link {
   background: #be1e2f;
@@ -340,6 +325,8 @@ advance {
   background: #cda2a3;
   color: fff;
 }
+
+/*Footer */
 
 footer {
   margin-bottom: 0px;
@@ -369,11 +356,6 @@ footer::after {
   left: 100%;
 }
 
-#icons {
-  font-size: 80px;
-  padding: 5px 10px;
-  color: var(--primary-color);
-}
 footer .email {
   margin-bottom: 0px;
   margin: 0 auto;
@@ -384,37 +366,25 @@ footer .email a {
   font-family: "Josefin Sans", sans-serif;
 }
 
-#contact a {
-  color: var(--primary-color);
-  text-decoration: none;
-  font-size: 30px;
-}
-#contact a:hover {
-  color: #cda2a3;
-}
 #contact-us i {
+  margin-top: 10px;
   font-size: 40px;
   color: white;
   border-radius: 50%;
   padding: 5px 10px;
 }
 #contact-us i:hover {
-  color: #cda2a3;
+  color: #383838;
 }
 
-.intro {
-  width: 100%;
+.link {
   color: white;
-}
-#link a {
-  text-decoration: none;
-  color: white;
-}
-#link a:hover {
-  color: #cda2a3;
 }
 
 @media (max-width: 900px) {
+  html {
+    overscroll-behavior-y: none;
+  }
   .navbar {
     margin-bottom: 0px;
   }
@@ -446,6 +416,7 @@ footer .email a {
 
   #business {
     margin-top: 25px;
+    margin-top: 0px;
   }
   #me {
     font-size: 25px;
@@ -455,12 +426,5 @@ footer .email a {
     padding: 0px 0px;
     font-size: 14px;
     height: 78px;
-  }
-
-  .Do {
-    margin-top: 0px;
-  }
-  html {
-    overscroll-behavior-y: none;
   }
 }
