@@ -326,6 +326,13 @@ ul {
   color: fff;
 }
 
+.card-img-top {
+  border-radius: 50%;
+}
+#main-products {
+  border-radius: 50%;
+}
+
 /*Footer */
 
 footer {
