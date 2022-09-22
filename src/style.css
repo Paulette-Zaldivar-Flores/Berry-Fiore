@@ -157,7 +157,7 @@ a.nav-link {
 }
 
 nav .navbar-nav li a {
-  color: white !important;
+  color: #f4f4d5 !important;
 }
 
 nav .navbar-nav li a:hover {
@@ -327,10 +327,7 @@ ul {
 }
 
 .card-img-top {
-  border-radius: 50%;
-}
-#main-products {
-  border-radius: 50%;
+  border-radius: 2px;
 }
 
 /*Footer */
