@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
 .root {
   --primary-color: #a8815d;
   --secondary-color: #f2ede7;
@@ -288,15 +289,12 @@ img {
   background-color: white;
 }
 
-#berry3 {
+#business-logo {
   border-radius: 50%;
   border: 3px solid #be1e2f;
   box-shadow: 2px 2px 3px rgba(29, 28, 28, 0.582);
 }
-#me {
-  font-size: 40px;
-  color: var(--third-color);
-}
+
 
 #business {
   text-align: justify;
@@ -317,6 +315,10 @@ ul {
   border: 3px solid #be1e2f;
   border-radius: 5px;
   box-shadow: 2px 2px 3px rgba(29, 28, 28, 0.582);
+}
+
+#ready-menu-wrapper{
+  text-align: center;
 }
 #location {
   text-align: center;
