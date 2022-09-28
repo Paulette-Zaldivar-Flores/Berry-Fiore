@@ -220,16 +220,29 @@ html {
   overscroll-behavior-y: none;
 }
 
+
+/* Sections */
 section {
   background-image: url(/images/section-image.png);
   background-size: cover;
   display: block;
 }
 
-#events-section {
+#events {
   background-image: url(/images/section2.png);
   background-size: cover;
   display: block;
+
+}
+
+#ready-menu{
+  background-image:none;
+  text-align: center;
+
+}
+
+#custom-desserts, #contact-us{
+  background-image:none;
 }
 
 /* Card Images */
@@ -364,6 +377,18 @@ ul {
 .navigation-links a {
   margin: 20px;
 }
+
+
+/*Form */
+form {
+  width: 40%;
+ margin:0 auto;
+}
+
+
+
+
+
 
 /*Footer */
 
