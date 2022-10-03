@@ -229,6 +229,7 @@ section {
   display: block;
 }
 
+
 #events {
   background-image: url(/images/section2.png);
   background-size: cover;
@@ -381,14 +382,16 @@ ul {
 
 
 /*Form */
+
+#contact-h1{
+  margin-bottom: 60px;
+  margin-top: 100px;
+  font-size: 60px;
+}
 form {
   width: 40%;
  margin:0 auto;
 }
-
-
-
-
 
 
 
