@@ -247,6 +247,11 @@ section {
   background-image:none;
 }
 
+#custom-desserts{
+  margin-top: 80px;
+
+}
+
 /* Card Images */
 img {
   padding-top: 0;
@@ -335,20 +340,20 @@ ul {
 #ready-menu-wrapper{
   text-align: center;
 }
-#location {
-  text-align: center;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 20px;
-}
+
 
 #custom {
-  text-align: justify;
-  padding: 20px 15px;
+  text-align:left;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 25px;
+font-weight: bold;
+background: #cda2a3;
+color:white;
+margin-bottom: 0;
 }
 
-#call {
-  text-align: center;
-}
+
 
 /* Buttons */
 
@@ -487,9 +492,18 @@ footer .email a {
     margin-top: 25px;
     margin-top: 0px;
   }
-  #me {
-    font-size: 25px;
+
+  #custom {
+    text-align:left;
+    font-size: 16px;
+  font-weight: bold;
+  background: #cda2a3;
+  color:white;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 0;
   }
+
 
   footer {
     padding: 0px 0px;
