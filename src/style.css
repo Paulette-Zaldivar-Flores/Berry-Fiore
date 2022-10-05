@@ -207,6 +207,13 @@ body {
   font-family: "Josefin Sans", sans-serif;
   margin-top: 100px 0;
   background-image: url(/images/background.png);
+  scroll-behavior: smooth;
+}
+
+html {
+  overscroll-behavior-y: none;
+
+
 }
 
 html,
@@ -217,9 +224,7 @@ body {
   background-color: #f4f4d5;
 }
 
-html {
-  overscroll-behavior-y: none;
-}
+
 
 
 /* Sections */
