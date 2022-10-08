@@ -398,6 +398,7 @@ margin-bottom: 0;
   margin-top: 100px;
   font-size: 60px;
 }
+
 form {
   width: 40%;
  margin:0 auto;
@@ -472,13 +473,6 @@ footer .email a {
     margin-top: 0px;
   }
 
-  #berry3 {
-    width: 300px;
-    display: block;
-
-    margin-left: auto;
-    margin-right: auto;
-  }
 
   .order {
     font-size: 16px;
@@ -499,8 +493,8 @@ footer .email a {
   }
 
   #custom {
-    text-align:left;
-    font-size: 16px;
+  text-align:left;
+  font-size: 16px;
   font-weight: bold;
   background: #cda2a3;
   color:white;
@@ -509,6 +503,10 @@ footer .email a {
   margin-bottom: 0;
   }
 
+  form {
+    width: 70%;
+   margin:0 auto;
+  }
 
   footer {
     padding: 0px 0px;
