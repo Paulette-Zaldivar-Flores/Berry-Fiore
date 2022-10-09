@@ -405,10 +405,41 @@ form {
 }
 
 
+/*Social Media */
+#social-media{
+  margin-top: 80px;
+
+}
+
+#instragram-gif{
+  display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+
+
+
+
 
 /*Footer */
 
+#faq-link{
+  font-size: 20px;
+ text-align: left;
+ margin-top: 20px;;
+ margin-left: 20px;
+margin-bottom: 100px;
+text-decoration: none;
+font-weight: bold;
+color: white;
+}
+
+
+
 footer {
+  padding-top: 30px;
   margin-bottom: 0px;
   width: 100%;
   font-family: "Josefin Sans", sans-serif;
@@ -459,6 +490,7 @@ footer .email a {
 
 .link {
   color: white;
+  margin-left: 20px;
 }
 
 @media (max-width: 900px) {
@@ -509,7 +541,8 @@ footer .email a {
   }
 
   footer {
-    padding: 0px 0px;
+    padding-top: 15px;
+
     font-size: 14px;
     height: 78px;
   }
