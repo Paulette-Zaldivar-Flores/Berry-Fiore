@@ -1,6 +1,6 @@
 # Berry Fiore Webpage 🌹
 > A multi page website for a sweets company based in San Diego, California.
-> Live demo [_here_](https://paulette-zaldivar-flores.github.io/Berry-Fiore/).
+> Live demo [_here_](https://berry-fiore.netlify.app).
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -14,7 +14,7 @@
 
 
 ## General Information
-<ul><li>The goal of this project was to create a multi page website that described the company and showcased the items on their menu.</li></ul>
+<ul><li>The goal of this project was to create a multi page website that describes the company and showcases the items on their menu.</li></ul>
 
 
 ## Technologies Used
