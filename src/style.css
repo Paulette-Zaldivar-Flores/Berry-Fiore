@@ -228,6 +228,10 @@ body {
 
 
 /* Sections */
+
+
+
+
 section {
   background-image: url(/images/section-image.png);
   background-size: cover;
@@ -443,12 +447,12 @@ footer {
   margin-bottom: 0px;
   width: 100%;
   font-family: "Josefin Sans", sans-serif;
-  height: 650px;
+  height: 550px;
 }
 
 footer {
   position: relative;
-  background: #cda2a3;
+  background: #000000;
 }
 
 footer::before,
@@ -496,16 +500,16 @@ footer .email a {
 
 #business-information{
   color: white;
-
 }
+
+
 
 .svg-icon{
   width: 30px;
   margin-right: 0px;
   padding: 0;
+  padding-right: 0px;
 color: white;
-
-
 }
 
 .small {text-align: center;}
@@ -514,8 +518,9 @@ color: white;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
-width: 80px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 80px;
   border-radius: 50%;
   border: 1px solid #be1e2f;
   box-shadow: 2px 2px 3px rgba(29, 28, 28, 0.582);
@@ -578,7 +583,6 @@ width: 80px;
 
   footer {
     padding-top: 15px;
-
     font-size: 14px;
     height: 540px;
   }
