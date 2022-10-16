@@ -362,6 +362,14 @@ color:white;
 margin-bottom: 0;
 }
 
+#note-customer{
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 
 
 /* Buttons */
