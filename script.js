@@ -1,5 +1,4 @@
 
-$('.nav-link').click(function() {
-    $('.nav-link').removeClass('active');
-    $(this).addClass('active');
+var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+  target: '#navbar-example'
 })

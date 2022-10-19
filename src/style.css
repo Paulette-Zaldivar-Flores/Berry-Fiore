@@ -175,6 +175,8 @@ nav .navbar-nav li a:hover {
 
 }
 
+
+
 .nav-item {
   font-weight: bolder;
 }
@@ -229,6 +231,9 @@ body {
   background-color: #f4f4d5;
 }
 
+body{
+  position: relative;
+}
 
 
 
