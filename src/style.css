@@ -211,10 +211,8 @@ a.nav-link {
   .beOnTop2{
     position: absolute;
   z-index:  1;
-  text-shadow: 1px 1px #ffffff;
-  color: #000000;
-  margin-left: 100px;
-  margin-top: 450px;
+  margin-left: 510px;
+  margin-top: 480px;
   justify-content: center;
   align-items: center
 
@@ -419,6 +417,26 @@ margin-bottom: 0;
   color: var(--third-color);
 }
 
+.carousel-link {
+  background: #801a1c;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff !important;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  padding: 10px 20px;
+
+  border: 2px 2px  solid #000000;
+  transition: background 200ms ease, border-color 200ms ease;
+}
+.carousel-link:hover {
+  background: #a32f2f;
+  color: var(--third-color);
+}
+
+
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -580,9 +598,8 @@ color: var(--third-color);
     }
 
     .beOnTop2{
-
-font-size: 30px;
-   margin-left: 3px;
+    font-size: 30px;
+    margin-left: 120px;
     margin-top: 350px;
     justify-content: center;
     align-items: center
