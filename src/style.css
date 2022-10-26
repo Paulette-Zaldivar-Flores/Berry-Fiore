@@ -54,12 +54,12 @@ nav .navbar-nav li a {
 }
 
 nav .navbar-nav li a:hover {
-  color: var(--secondary-color) !important;
+  color:var(--secondary-color)!important;
   transition: ease-in 0.3s;
 }
 
 .navbar .nav-item > .nav-link.active {
-  color: var(--secondary-color) !important;
+  color:  #6b6565  !important;
 
 }
 
@@ -418,7 +418,7 @@ margin-bottom: 0;
 }
 
 .carousel-link {
-  background: #801a1c;
+  background: #be1e2f;
   border-radius: 10px;
   text-decoration: none;
   color: #fff !important;
@@ -427,7 +427,7 @@ margin-bottom: 0;
   line-height: 30px;
   padding: 10px 20px;
 
-  border: 2px 2px  solid #000000;
+  border: 2px 2px solid #000000;
   transition: background 200ms ease, border-color 200ms ease;
 }
 .carousel-link:hover {
