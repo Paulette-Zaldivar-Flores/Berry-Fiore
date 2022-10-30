@@ -345,11 +345,6 @@ img {
 
 
 
-
-#divider {
-  background-color: var(--third-color);
-}
-
 #business-logo {
   border-radius: 50%;
   border: 3px solid #be1e2f;
@@ -405,53 +400,28 @@ margin-bottom: 0;
 
 /* Buttons */
 
-.primary-link {
+.button-link {
   background: #cda2a3;
   border-radius: 50px;
+  box-shadow: 2px 2px #000000;
   text-decoration: none;
   color: #fff !important;
+  font-weight: 800;
   font-size: 20px;
   line-height: 30px;
   padding: 10px 20px;
-  border: none;
-  border: 1px solid #cda2a3;
+  border: .5px solid  #000000;
   transition: background 200ms ease, border-color 200ms ease;
 }
-.primary-link:hover {
+.button-link:hover {
   background: #6b6565;
   color: var(--third-color);
 }
 
-.carousel-link {
-  background: #be1e2f;
-  border-radius: 10px;
-  text-decoration: none;
-  color: #fff !important;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 30px;
-  padding: 10px 20px;
-
-  border: 2px 2px solid #000000;
-  transition: background 200ms ease, border-color 200ms ease;
-}
-.carousel-link:hover {
-  background: #a32f2f;
-  color: var(--third-color);
+#carousel-button{
+  padding: 15px 20px;
 }
 
-
-
-.navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-  font-family: "Josefin Sans", sans-serif;
-}
-
-.navigation-links a {
-  margin: 20px;
-}
 
 
 /*Form */
