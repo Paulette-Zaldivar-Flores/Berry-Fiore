@@ -200,9 +200,9 @@ a.nav-link {
 .beOnTop {
   position: absolute;
   z-index:  1;
-  padding-left: 400px;
-  width: 750px;
-  height: 750px;
+  padding-left: 490px;
+  width: 850px;
+  height: 850px;
   padding-top: 100px;
   justify-content: center;
   align-items: center
@@ -211,7 +211,7 @@ a.nav-link {
   .beOnTop2{
     position: absolute;
   z-index:  1;
-  margin-left: 510px;
+  margin-left: 600px;
   margin-top: 480px;
   justify-content: center;
   align-items: center
