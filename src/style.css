@@ -276,6 +276,7 @@ body{
 section {
   background-image: url(/images/section1.png);
   background-size: cover;
+  background-position: center;
   display: block;
 }
 
@@ -292,6 +293,10 @@ section {
 
 }
 
+#events-card-font{
+  color: white;
+}
+
 #ready-menu{
   background-image:none;
   text-align: center;
@@ -304,6 +309,10 @@ section {
 
 #custom-desserts{
   margin-top: 80px;
+  background-image: url(/images/section3.png);
+  background-size:cover ;
+  background-position: center;
+  display: block;
 
 }
 
@@ -334,8 +343,8 @@ img {
   padding-right: 30px;
   font-size: 30px;
   font-weight: 800;
-  color: #ffffff;
-  text-shadow: 1px 1px #000000;
+  color: #050505;
+  text-shadow: 1px 1px #cda2a3;
   font-family: "Nunito", sans-serif;
 }
 
