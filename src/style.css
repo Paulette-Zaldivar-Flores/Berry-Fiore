@@ -285,14 +285,14 @@ body{
   }
 
 
-   .col{
+.col{
     margin-left: 80px;
     margin-right:80px;
     margin-bottom: 60px;
     margin-top:60px;
   }
 
-  lord-icon{
+lord-icon{
     width: 200px;
     height: 200px;
   }
@@ -304,9 +304,6 @@ section {
   background-position: center;
   display: block;
 }
-
-
-
 
 #events {
   background-image: url(/images/section2.png);
@@ -428,7 +425,6 @@ margin-bottom: 0;
 }
 
 
-
 /* Buttons */
 
 .button-link {
@@ -453,8 +449,6 @@ margin-bottom: 0;
   padding: 15px 20px;
 }
 
-
-
 /*Form */
 
 #contact-h1{
@@ -464,8 +458,8 @@ margin-bottom: 0;
 }
 
 form {
-  width: 40%;
- margin:0 auto;
+width: 40%;
+margin:0 auto;
 }
 
 
@@ -476,7 +470,7 @@ form {
 }
 
 #instragram-gif{
-  display: flex;
+display: flex;
 justify-content: center;
 align-items: center;
 margin-top: 20px;
@@ -484,23 +478,18 @@ margin-bottom: 30px;
 }
 
 
-
-
-
 /*Footer */
 
 #faq-link{
-  font-size: 20px;
- text-align: left;
- margin-top: 20px;;
- margin-left: 20px;
+font-size: 20px;
+text-align: left;
+margin-top: 20px;;
+margin-left: 20px;
 margin-bottom: 100px;
 text-decoration: none;
 font-weight: bold;
 color: var(--third-color);
 }
-
-
 
 footer {
   color: #ffffff;
@@ -593,18 +582,9 @@ color: var(--third-color);
     overscroll-behavior-y: none;
   }
 
-  #services{
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 20px;
+  .navbar {
+    margin-bottom: 0px;
   }
-
-  lord-icon{
-    width: 150px;
-    height: 150px;
-  }
-
-
 
   .beOnTop{
     position: absolute;
@@ -624,8 +604,11 @@ color: var(--third-color);
 
     }
 
-  .navbar {
-    margin-bottom: 0px;
+  #carousel-story {
+    max-width: 100px;
+    max-height: 100px;
+    margin-bottom: 0;
+    margin-top: 0;
   }
 
   h1 {
@@ -633,18 +616,35 @@ color: var(--third-color);
     font-size: 60px;
   }
 
+  #services{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+  }
+
+  .container1 {
+    font-size: 16px;
+  }
+
+  lord-icon{
+    width: 80px;
+    height: 80px;
+  }
+
+  .col{
+    margin-left: 10px;
+    margin-right:10px;
+    margin-bottom: 30px;
+    margin-top:30px;
+  }
+
 
   .order {
     font-size: 16px;
   }
+
   #location {
     font-size: 18px;
-  }
-  #carousel-story {
-    max-width: 100px;
-    max-height: 100px;
-    margin-bottom: 0;
-    margin-top: 0;
   }
 
   #business {
@@ -664,8 +664,8 @@ color: var(--third-color);
   }
 
   form {
-    width: 70%;
-   margin:0 auto;
+  width: 70%;
+  margin:0 auto;
   }
 
   footer {
