@@ -414,7 +414,7 @@ ul {
 font-weight: bold;
 background: var(--primary-color);
 color:var(--third-color);
-margin-bottom: 0;
+
 }
 
 #note-customer{
@@ -638,7 +638,17 @@ color: var(--third-color);
     margin-top:30px;
   }
 
+  #contact-h1{
+    margin-bottom: 20px;
+    margin-top: 45px;
 
+  }
+
+  #custom-menu-h1{
+    margin-bottom: 20px;
+    margin-top: 80px;
+
+  }
   .order {
     font-size: 16px;
   }
