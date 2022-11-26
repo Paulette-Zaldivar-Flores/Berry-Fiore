@@ -342,10 +342,17 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.card-body{
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
 .card-img-top {
   max-width: 300px;
   max-height: 300px;
   border-radius: 2px;
+  object-fit: cover;
+
 }
 
 #services {
@@ -399,6 +406,30 @@ ul {
   border: 3px solid #be1e2f;
   border-radius: 5px;
   box-shadow: 2px 2px 3px #1d1c1c94;
+  position: relative;
+}
+
+.card-text{
+  font-weight: bold;
+  padding-top: 25px;
+  padding-bottom: 0px;
+
+
+}
+.card-price-info .price{
+  background-color: rgb(170, 5, 5);
+  color:white;
+  font-weight: bold;
+  height: 80px;
+  width:80px;
+  border-radius: 50%;
+  border: 1px solid rgb(91, 91, 91);
+  padding-top: 30px;
+  font-size: 16px;
+  position: absolute;
+  bottom: 35px;
+  right: 5px;
+  text-shadow: 1px 1px 1px rgb(67, 66, 66);
 }
 
 #ready-menu-wrapper{
