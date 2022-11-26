@@ -751,6 +751,12 @@ color: var(--third-color);
   margin-bottom: 0;
   }
 
+  .ready-menu-card-text ul{
+
+    padding: 25px 100px 25px 100px;
+
+  }
+
   form {
   width: 70%;
   margin:0 auto;
