@@ -1,0 +1,138 @@
+/* Card Images */
+img {
+  padding-top: 0;
+  padding-bottom: 0;
+  display: block;
+  max-width: 100%;
+}
+
+.card-body{
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+.card-img-top {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 2px;
+  object-fit: cover;
+
+}
+
+#services {
+  background-color: #ffffff00;
+  border: none;
+  border-radius: none;
+  box-shadow: none;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 30px;
+  font-weight: 800;
+  color: #050505;
+  text-shadow: 1px 1px #cda2a3;
+  font-family: "Nunito", sans-serif;
+}
+
+
+
+.card {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: 3px solid #be1e2f;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px #1d1c1c94;
+  position: relative;
+}
+
+.card-text{
+  font-weight: bold;
+  padding-top: 25px;
+  padding-bottom: 0px;
+  font-family: "Josefin Sans", sans-serif;
+
+
+}
+.card-price-info .price{
+  background: radial-gradient(circle at 10% 20%, rgb(221, 49, 49) 0%, rgb(119, 0, 0) 90%);
+  color:white;
+  font-weight: bold;
+  height: 80px;
+  width:80px;
+  border-radius: 50%;
+  border: 1px solid rgb(91, 91, 91);
+  padding-top: 30px;
+  font-size: 16px;
+  position: absolute;
+  bottom: 35px;
+  right: 5px;
+  text-shadow: 1px 1px 1px rgb(67, 66, 66);
+}
+
+/*Reveal Text Animation*/
+
+.on-hover-reveal-text {
+  position: relative;
+
+}
+
+
+.card-img-top {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.on-hover-reveal-text:hover .card-img-top {
+  opacity: 0.7;
+
+}
+
+.on-hover-reveal-text:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  text-decoration: none;
+  font-size: 60px;
+}
+
+.ready-menu-card-text{
+  font-size: 16px;
+  color: white;
+  background-color: #0000008e;
+  border-radius: 5px;
+
+}
+
+
+.ready-menu-card-text ul {
+  list-style: none;
+  line-height: 2em;
+  padding: 25px 200px 25px 200px;
+  display: inline;
+  text-align: center;
+
+
+}
+
+.ready-menu-card-text li{
+  margin: 0;
+
+
+}
