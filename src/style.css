@@ -237,19 +237,18 @@ margin:0 auto;
 
   .beOnTop{
     position: absolute;
-    padding-left: 75px;
-    width: 300px;
-    height: 300px;
-    padding-top: 90px;
+ left:70px;
+    width: 250px;
+    height: 250px;
+    top: 150px;
     z-index:  1;
     }
 
     .beOnTop2{
     font-size: 30px;
-    margin-left: 120px;
-    margin-top: 350px;
-    justify-content: center;
-    align-items: center
+    left:130px;
+    top: 450px;
+
 
     }
 
