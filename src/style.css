@@ -153,6 +153,16 @@ section {
 
 }
 
+#custom-desserts .card{
+  border-radius: 50%;
+
+}
+
+#custom-desserts .card-img-top{
+  border-radius: 50%;
+
+}
+
 
 
 #ready-menu-wrapper{
@@ -244,7 +254,7 @@ margin:0 auto;
     .beOnTop2{
     font-size: 30px;
     left:130px;
-    top: 450px;
+    top: 420px;
 
 
     }

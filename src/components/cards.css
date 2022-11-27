@@ -70,7 +70,24 @@ img {
   bottom: 35px;
   right: 5px;
   text-shadow: 1px 1px 1px rgb(67, 66, 66);
+
 }
+
+/*Custome Desserts Card*/
+
+#custom-desserts .card{
+  border-radius: 50%;
+
+}
+
+#custom-desserts .card-img-top{
+  border-radius: 50%;
+
+}
+
+
+
+
 
 /*Reveal Text Animation*/
 
