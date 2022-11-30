@@ -243,21 +243,24 @@ margin:0 auto;
   }
 
   .beOnTop{
+
     position: absolute;
- left:70px;
+    left: 300px;
     width: 250px;
     height: 250px;
-    top: 150px;
-    z-index:  1;
+    top: 200px;
+    z-index: 1;
+
     }
 
     .beOnTop2{
-    font-size: 30px;
-    left:130px;
-    top: 420px;
-
-
+      font-size: 30px;
+      left: 350px;
+      top: 460px;
     }
+
+
+
 
   #carousel-story {
     max-width: 100px;
@@ -337,4 +340,25 @@ margin:0 auto;
     font-size: 14px;
     height: 540px;
   }
+}
+
+@media (max-width: 500px){
+  .beOnTop{
+    position: absolute;
+    left: 65px;
+    width: 250px;
+    height: 250px;
+    top: 150px;
+    z-index:  1;
+    }
+
+    .beOnTop2{
+
+      font-size: 30px;
+      left: 120px;
+      top: 420px;
+
+
+    }
+
 }
