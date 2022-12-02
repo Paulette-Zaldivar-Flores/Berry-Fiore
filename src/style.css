@@ -87,6 +87,24 @@ ul {
   font-family: "Josefin Sans", sans-serif;
 }
 
+.business-logo-z{
+  position: absolute;
+  left: 450px;
+  width: 350px;
+  height: 250px;
+  top: 180px;
+  z-index: 1;
+}
+
+  .carousel-button-z{
+    position: absolute;
+    font-size: 30px;
+    left: 550px;
+    top: 550px;
+    z-index: 1;
+
+  }
+
 
 
 /* Sections */
@@ -223,12 +241,8 @@ margin:0 auto;
 /* Responsiveness */
 
 @media (max-width: 900px) {
-  html {
-    overscroll-behavior-y: none;
-  }
 
   h1 {
-    margin-top: 0px;
     font-size: 60px;
   }
 
@@ -237,44 +251,23 @@ margin:0 auto;
     height: 80px;
   }
 
-
-  .navbar {
-    margin-bottom: 0px;
+  .business-logo-z{
+    position: absolute;
+    left: 270px;
+    width: 300px;
+    height: 250px;
+    top: 180px;
+    z-index: 1;
   }
 
-  .beOnTop{
-
-    position: absolute;
-    left: 300px;
-    width: 250px;
-    height: 250px;
-    top: 200px;
-    z-index: 1;
-
-    }
-
-    .beOnTop2{
+    .carousel-button-z{
+      position: absolute;
       font-size: 30px;
       left: 350px;
-      top: 460px;
+      top: 480px;
+      z-index: 1;
+
     }
-
-
-
-
-  #carousel-story {
-    max-width: 100px;
-    max-height: 100px;
-    margin-bottom: 0;
-    margin-top: 0;
-  }
-
-
-  #services{
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 20px;
-  }
 
   .container1 {
     font-size: 16px;
@@ -289,19 +282,12 @@ margin:0 auto;
     margin-top:30px;
   }
 
-  #contact-h1{
-    margin-bottom: 20px;
-    margin-top: 45px;
-
+  .card-text{
+    font-size:16px;
   }
 
-  #custom-menu-h1{
-    margin-bottom: 20px;
-    margin-top: 80px;
-
-  }
-  .order {
-    font-size: 16px;
+  #catering-list{
+    font-size:18px;
   }
 
   #location {
@@ -313,21 +299,9 @@ margin:0 auto;
     margin-top: 0px;
   }
 
-  #custom {
-  text-align:left;
-  font-size: 16px;
-  font-weight: bold;
-  background: var(--primary-color);
-  color:var(--third-color);
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-bottom: 0;
-  }
 
   .ready-menu-card-text ul{
-
     padding: 25px 100px 25px 100px;
-
   }
 
   form {
@@ -342,23 +316,22 @@ margin:0 auto;
   }
 }
 
-@media (max-width: 500px){
-  .beOnTop{
-    position: absolute;
+@media (max-width: 600px){
+  .business-logo-z{
     left: 65px;
     width: 250px;
     height: 250px;
-    top: 150px;
-    z-index:  1;
     }
 
-    .beOnTop2{
-
+    .carousel-button-z{
       font-size: 30px;
       left: 120px;
-      top: 420px;
-
-
+      top: 460px;
     }
+
+    #catering-list{
+      font-size:16px;
+    }
+
 
 }
