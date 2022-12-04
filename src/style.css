@@ -15,8 +15,6 @@
 @import url("components/buttons.css");
 @import url("components/footer.css");
 
-
-
 .root {
   --primary-color: #cda2a3;
   --secondary-color: #6b6565;
@@ -30,8 +28,6 @@
 
 html {
   overscroll-behavior-y: none;
-
-
 }
 
 html,
@@ -50,7 +46,7 @@ h1 {
 h2 {
   text-align: center;
   font-family: "Nunito", sans-serif;
-  color: black;
+  color: var(--fourth-color);
 }
 
 body {
@@ -69,8 +65,6 @@ ul {
 }
 
 
-
-
 /* Logo */
 
 #business-logo {
@@ -86,26 +80,6 @@ ul {
   padding: 30px 30px;
   font-family: "Josefin Sans", sans-serif;
 }
-
-.business-logo-z{
-  position: absolute;
-  left: 450px;
-  width: 350px;
-  height: 250px;
-  top: 180px;
-  z-index: 1;
-}
-
-  .carousel-button-z{
-    position: absolute;
-    font-size: 30px;
-    left: 550px;
-    top: 550px;
-    z-index: 1;
-
-  }
-
-
 
 /* Sections */
 
@@ -148,10 +122,6 @@ section {
 
 }
 
-#events-card-font{
-  color: white;
-}
-
 #ready-menu{
   background-image:none;
   text-align: center;
@@ -170,17 +140,6 @@ section {
   display: block;
 
 }
-
-#custom-desserts .card{
-  border-radius: 50%;
-
-}
-
-#custom-desserts .card-img-top{
-  border-radius: 50%;
-
-}
-
 
 
 #ready-menu-wrapper{
@@ -201,16 +160,14 @@ section {
   background-color: #6b6565;
 }
 
-
-
 #custom {
   text-align:left;
   padding-left: 200px;
   padding-right: 200px;
   font-size: 25px;
-font-weight: bold;
-background: var(--primary-color);
-color:var(--third-color);
+  font-weight: bold;
+  background: var(--primary-color);
+  color:var(--third-color);
 
 }
 
@@ -260,7 +217,7 @@ margin:0 auto;
     z-index: 1;
   }
 
-    .carousel-button-z{
+    .carousel-button-z {
       position: absolute;
       font-size: 30px;
       left: 350px;
@@ -334,5 +291,8 @@ margin:0 auto;
       font-size:16px;
     }
 
-
+    #contact-h1{
+      margin-top: 60px;
+      font-size: 45px;
+    }
 }

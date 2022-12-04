@@ -73,7 +73,7 @@ img {
 
 }
 
-/*Custome Desserts Card*/
+/*Custom Desserts Card*/
 
 #custom-desserts .card{
   border-radius: 50%;
@@ -84,6 +84,7 @@ img {
   border-radius: 50%;
 
 }
+
 
 
 
@@ -151,5 +152,8 @@ img {
 .ready-menu-card-text li{
   margin: 0;
 
+}
 
+#events-card-font{
+  color: white;
 }
