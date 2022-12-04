@@ -107,6 +107,5 @@ color: var(--third-color);
   margin-bottom: 50px;
   width: 80px;
   border-radius: 50%;
-  border: 1px solid #be1e2f;
   box-shadow: 2px 2px 3px #1d1c1c94;
 }
