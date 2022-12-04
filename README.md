@@ -39,8 +39,9 @@
 
 
 ## Screenshots
+<img width="1260" alt="Screen Shot 2565-12-04 at 20 53 36" src="https://user-images.githubusercontent.com/96970580/205488916-22c39f50-7dd6-4502-b25d-455b6280f331.png">
 
-<img width="1263" alt="Berry Fiore" src="https://user-images.githubusercontent.com/96970580/161271938-4f084513-9163-4b09-94bd-b412a37cc8fb.png">
+
 
 
 
