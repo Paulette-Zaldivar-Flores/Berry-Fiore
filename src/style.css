@@ -267,4 +267,8 @@ form {
       margin-top: 60px;
       font-size: 45px;
     }
+
+  #note-customer{
+    width: 300px;
+    }
 }
