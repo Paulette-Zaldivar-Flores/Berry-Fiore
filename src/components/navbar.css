@@ -17,7 +17,7 @@
 }
 
 .navbar-custom {
-  background-color: #cda2a3;
+  background-color: #850101;
 }
 
 .navbar ul li {
@@ -35,12 +35,12 @@ nav .navbar-nav li a {
 }
 
 nav .navbar-nav li a:hover {
-  color:var(--secondary-color)!important;
+  color: #cda2a3 !important;
   transition: ease-in 0.3s;
 }
 
 .navbar .nav-item > .nav-link.active {
-  color:  #6b6565  !important;
+  color:  #aeaaaa  !important;
 
 }
 

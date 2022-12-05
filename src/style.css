@@ -14,6 +14,7 @@
 @import url("components/carousel.css");
 @import url("components/buttons.css");
 @import url("components/footer.css");
+@import url("components/particle.css");
 
 .root {
   --primary-color: #cda2a3;
@@ -64,21 +65,6 @@ ul {
   text-align: left;
 }
 
-
-/* Logo */
-
-#business-logo {
-  filter: drop-shadow(2px 4px 8px #000);
-}
-
-
-#business {
-  text-align: justify;
-  text-align: left;
-  padding: 30px 30px;
-  font-family: "Josefin Sans", sans-serif;
-}
-
 /* Sections */
 
 .container1  {
@@ -105,7 +91,6 @@ lord-icon{
     height: 200px;
   }
 
-
 section {
   background-image: url(/images/section1.png);
   background-size: cover;
@@ -117,13 +102,11 @@ section {
   background-image: url(/images/section2.png);
   background-size: cover;
   display: block;
-
 }
 
 #ready-menu{
   background-image:none;
   text-align: center;
-
 }
 
 #custom-desserts, #contact-us{
@@ -136,9 +119,7 @@ section {
   background-size:cover ;
   background-position: center;
   display: block;
-
 }
-
 
 #ready-menu-wrapper{
   text-align: center;
@@ -152,7 +133,6 @@ section {
   padding: 2.5px 5px;
   border-radius: 5px;
 }
-
 
 .fa-square-instagram:hover{
   background-color: #6b6565;
@@ -172,12 +152,9 @@ section {
 #note-customer{
   width: 500px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-
+  margin: 0 auto;
+  margin-bottom: 50px;
+  }
 
 /*Form */
 
@@ -188,8 +165,8 @@ section {
 }
 
 form {
-width: 40%;
-margin:0 auto;
+  width: 40%;
+  margin:0 auto;
 }
 
 
@@ -221,14 +198,11 @@ margin:0 auto;
       left: 350px;
       top: 480px;
       z-index: 1;
-
     }
 
   .container1 {
     font-size: 16px;
   }
-
-
 
   .col{
     margin-left: 10px;
@@ -254,10 +228,10 @@ margin:0 auto;
     margin-top: 0px;
   }
 
-
   .ready-menu-card-text ul{
     padding: 25px 100px 25px 100px;
   }
+
 
   form {
   width: 70%;
