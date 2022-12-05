@@ -3,14 +3,9 @@
   padding: 15px 20px;
 }
 
-
 #carousel-button:hover {
-
   background: radial-gradient(circle at -1% 57.5%, rgb(19, 170, 82) 0%, rgb(0, 102, 43) 90%);
 }
-
-
-
 
 .button-link {
 	background: radial-gradient(circle at 10.6% 22.1%, rgb(206, 18, 18) 0%, rgb(122, 21, 21) 100.7%);
@@ -22,12 +17,7 @@
   font-size: 20px;
   line-height: 30px;
   padding: 10px 20px;
-
-
 }
-
-
-
 
 .button-link:hover {
   transition: background-color 1s ease;

@@ -1,7 +1,6 @@
 *Social Media */
 #social-media{
   margin-top: 80px;
-
 }
 
 #instragram-gif{
@@ -11,7 +10,6 @@ align-items: center;
 margin-top: 20px;
 margin-bottom: 30px;
 }
-
 
 /*Footer */
 
@@ -82,19 +80,16 @@ footer .email a {
   margin-left: 20px;
 }
 
-
 #business-information{
   color: var(--third-color);
 }
-
-
 
 .svg-icon{
   width: 30px;
   margin-right: 0px;
   padding: 0;
   padding-right: 0px;
-color: var(--third-color);
+  color: var(--third-color);
 }
 
 .small {text-align: center;}

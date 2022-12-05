@@ -1,9 +1,17 @@
-/* Card Images */
-img {
-  padding-top: 0;
-  padding-bottom: 0;
-  display: block;
-  max-width: 100%;
+.card {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: 3px solid #be1e2f;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px #1d1c1c94;
+  position: relative;
+}
+
+.card-text{
+  font-weight: bold;
+  padding-top: 25px;
+  padding-bottom: 0px;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .card-body{
@@ -15,7 +23,13 @@ img {
   max-height: 300px;
   border-radius: 2px;
   object-fit: cover;
+}
 
+img {
+  padding-top: 0;
+  padding-bottom: 0;
+  display: block;
+  max-width: 100%;
 }
 
 #services {
@@ -39,23 +53,6 @@ img {
 
 
 
-.card {
-  margin: 0 auto;
-  margin-bottom: 10px;
-  border: 3px solid #be1e2f;
-  border-radius: 5px;
-  box-shadow: 2px 2px 3px #1d1c1c94;
-  position: relative;
-}
-
-.card-text{
-  font-weight: bold;
-  padding-top: 25px;
-  padding-bottom: 0px;
-  font-family: "Josefin Sans", sans-serif;
-
-
-}
 .card-price-info .price{
   background: radial-gradient(circle at 10% 20%, rgb(221, 49, 49) 0%, rgb(119, 0, 0) 90%);
   color:white;
@@ -77,26 +74,17 @@ img {
 
 #custom-desserts .card{
   border-radius: 50%;
-
 }
 
 #custom-desserts .card-img-top{
   border-radius: 50%;
-
 }
-
-
-
-
-
 
 /*Reveal Text Animation*/
 
 .on-hover-reveal-text {
   position: relative;
-
 }
-
 
 .card-img-top {
   opacity: 1;
@@ -118,7 +106,6 @@ img {
 
 .on-hover-reveal-text:hover .card-img-top {
   opacity: 0.7;
-
 }
 
 .on-hover-reveal-text:hover .middle {
@@ -135,9 +122,7 @@ img {
   color: white;
   background-color: #0000008e;
   border-radius: 5px;
-
 }
-
 
 .ready-menu-card-text ul {
   list-style: none;
@@ -145,13 +130,10 @@ img {
   padding: 25px 200px 25px 200px;
   display: inline;
   text-align: center;
-
-
 }
 
 .ready-menu-card-text li{
   margin: 0;
-
 }
 
 #events-card-font{
