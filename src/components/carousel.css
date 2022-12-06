@@ -128,6 +128,8 @@
 
 .business-logo-z{
   position: absolute;
+  justify-content: center;
+  align-items: center;
   left: 450px;
   width: 350px;
   height: 250px;
@@ -137,6 +139,8 @@
 
 .carousel-button-z{
   position: absolute;
+  justify-content: center;
+  align-items: center;
   font-size: 30px;
   left: 550px;
   top: 550px;
