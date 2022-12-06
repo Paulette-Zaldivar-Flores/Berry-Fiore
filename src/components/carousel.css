@@ -111,10 +111,15 @@
   }
 }
 
+
+#carousel-logo-button{
+  margin: 0 auto;
+}
+
 #carouselBerry .carousel-item img {
   object-fit: cover;
   object-position: center;
-  height: 30rem;
+  height: 35rem;
   overflow: hidden;
   color: var(--third-color);
   position: relative;
@@ -128,17 +133,19 @@
 
 .business-logo-z{
   position: absolute;
+  display:flex;
   justify-content: center;
   align-items: center;
   left: 450px;
   width: 350px;
   height: 250px;
-  top: 150px;
+  top: 200px;
   z-index: 1;
 }
 
 .carousel-button-z{
   position: absolute;
+  display:flex;
   justify-content: center;
   align-items: center;
   font-size: 30px;
