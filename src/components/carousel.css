@@ -111,15 +111,16 @@
   }
 }
 
-
-#carousel-logo-button{
+#carousel-story{
+  max-width: 100%;
   margin: 0 auto;
 }
+
 
 #carouselBerry .carousel-item img {
   object-fit: cover;
   object-position: center;
-  height: 35rem;
+  height: 33rem;
   overflow: hidden;
   color: var(--third-color);
   position: relative;
@@ -128,30 +129,23 @@
   /* Logo */
 
 #business-logo {
-  filter: drop-shadow(2px 4px 8px #000);
+  filter: drop-shadow(2px 2px 4px #000);
 }
 
 .business-logo-z{
   position: absolute;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  left: 450px;
+  left: calc(50vw - 175px);
   width: 350px;
-  height: 250px;
   top: 200px;
   z-index: 1;
 }
 
 .carousel-button-z{
   position: absolute;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
-  left: 550px;
-  top: 550px;
+  left: calc(50vw - 70px);
+  top: 580px;
   z-index: 1;
+  font-size: 30px;
 }
 
 #business {

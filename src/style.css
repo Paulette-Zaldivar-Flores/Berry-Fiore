@@ -78,17 +78,9 @@ ul {
     text-align: center;
   }
 
-
-.col{
-    margin-left: 80px;
-    margin-right:80px;
-    margin-bottom: 60px;
-    margin-top:60px;
-  }
-
 lord-icon{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
   }
 
 section {
@@ -183,33 +175,22 @@ form {
     height: 80px;
   }
 
-  .business-logo-z{
-    position: absolute;
-    left: 270px;
-    width: 300px;
-    height: 250px;
-    top: 180px;
-    z-index: 1;
+  /* .business-logo-z{
+  width: 300px;
   }
 
-    .carousel-button-z {
+    /* .carousel-button-z {
       position: absolute;
       font-size: 30px;
       left: 350px;
       top: 480px;
       z-index: 1;
-    }
+    } */ */ */
 
   .container1 {
     font-size: 16px;
   }
 
-  .col{
-    margin-left: 10px;
-    margin-right:10px;
-    margin-bottom: 30px;
-    margin-top:30px;
-  }
 
   .card-text{
     font-size:16px;
@@ -246,7 +227,7 @@ form {
 }
 
 @media (max-width: 600px){
-  .business-logo-z{
+  /* .business-logo-z{
     top: 120px;
     left: 65px;
     width: 250px;
@@ -257,7 +238,7 @@ form {
       font-size: 30px;
       left: 120px;
       top: 380px;
-    }
+    } */
 
     #catering-list{
       font-size:16px;
