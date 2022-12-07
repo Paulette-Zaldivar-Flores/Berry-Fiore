@@ -166,6 +166,14 @@ form {
 
 @media (max-width: 900px) {
 
+  .business-logo-z{
+    top: 150px;
+  }
+
+  .carousel-button-z{
+    top: 520px;
+  }
+
   h1 {
     font-size: 60px;
   }
