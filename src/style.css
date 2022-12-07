@@ -175,18 +175,6 @@ form {
     height: 80px;
   }
 
-  /* .business-logo-z{
-  width: 300px;
-  }
-
-    /* .carousel-button-z {
-      position: absolute;
-      font-size: 30px;
-      left: 350px;
-      top: 480px;
-      z-index: 1;
-    } */ */ */
-
   .container1 {
     font-size: 16px;
   }
@@ -227,29 +215,24 @@ form {
 }
 
 @media (max-width: 600px){
-  /* .business-logo-z{
+  .business-logo-z{
     top: 120px;
-    left: 65px;
-    width: 250px;
-    height: 250px;
-    }
+  }
 
-    .carousel-button-z{
-      font-size: 30px;
-      left: 120px;
-      top: 380px;
-    } */
+  .carousel-button-z{
+    top: 480px;
+  }
 
-    #catering-list{
-      font-size:16px;
-    }
+  #catering-list{
+    font-size:16px;
+  }
 
-    #contact-h1{
-      margin-top: 60px;
-      font-size: 45px;
-    }
+  #contact-h1{
+    margin-top: 60px;
+    font-size: 45px;
+  }
 
   #note-customer{
     width: 300px;
-    }
+  }
 }
