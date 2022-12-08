@@ -111,18 +111,15 @@
   }
 }
 
-#carousel-story{
-  max-width: 100%;
-  margin: 0 auto;
-}
+
+
 
 
 #carouselBerry .carousel-item img {
   object-fit: cover;
   object-position: center;
-  height: 33rem;
+  height: 35rem;
   overflow: hidden;
-  color: var(--third-color);
   position: relative;
   }
 
@@ -135,9 +132,10 @@
 .business-logo-z{
   position: absolute;
   left: calc(50vw - 175px);
-  width: 350px;
+
   top: 200px;
   z-index: 1;
+  width: 350px;
 }
 
 .carousel-button-z{
