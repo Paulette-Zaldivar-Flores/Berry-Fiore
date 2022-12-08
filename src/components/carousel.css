@@ -118,7 +118,7 @@
 #carouselBerry .carousel-item img {
   object-fit: cover;
   object-position: center;
-  height: 35rem;
+  height: 40rem;
   overflow: hidden;
   position: relative;
   }
