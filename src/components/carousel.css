@@ -132,7 +132,6 @@
 .business-logo-z{
   position: absolute;
   left: calc(50vw - 175px);
-
   top: 200px;
   z-index: 1;
   width: 350px;
