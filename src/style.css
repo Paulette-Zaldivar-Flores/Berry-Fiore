@@ -19,7 +19,7 @@
 .root {
   --primary-color: #cda2a3;
   --secondary-color: #6b6565;
-  --third-color: #ffffff;
+  --third-color: #efddb2;
   --fourth-color: #000000;
   --fifth-color:#be1e2f;
 
@@ -79,13 +79,17 @@ ul {
   }
 
 lord-icon{
-  margin-top: 80px;
     width: 100px;
     height: 100px;
   }
 
+  .col{
+    margin-top:40px;
+    margin-bottom: 40px;
+  }
+
 #our-services{
-  background: white;
+  background: #e9dcd3;
 }
 
 #events {
@@ -99,12 +103,16 @@ lord-icon{
   text-align: center;
 }
 
+.custom-header{
+  text-shadow: 1px 1px #cda2a3;
+}
+
 #custom-desserts, #contact-us{
   background-image:none;
 }
 
 #custom-desserts{
-  background: #ffffff;
+  background: #e9dcd3;
 }
 
 #ready-menu-wrapper{
@@ -144,10 +152,11 @@ lord-icon{
 
 /*Form */
 
-#contact-h1{
+#contact-header{
   margin-bottom: 60px;
   margin-top: 100px;
   font-size: 60px;
+  text-shadow: 1px 1px #cda2a3;
 }
 
 form {
