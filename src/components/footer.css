@@ -84,15 +84,11 @@ footer .email a {
   color: var(--third-color);
 }
 
-.svg-icon{
-  width: 30px;
-  margin-right: 0px;
-  padding: 0;
-  padding-right: 0px;
-  color: var(--third-color);
-}
 
-.small {text-align: center;}
+
+/* .small {
+  text-align: center;
+} */
 
 #footer-logo{
   display: block;
