@@ -1,9 +1,10 @@
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
 /* Fontawesome */
 @import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
@@ -15,6 +16,7 @@
 @import url("components/buttons.css");
 @import url("components/footer.css");
 @import url("components/particle.css");
+
 
 .root {
   --primary-color: #cda2a3;
@@ -41,17 +43,18 @@ body {
 
 h1 {
   text-align: center;
-  font-family: "Sacramento", cursive;
-  font-size: 80px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 60px;
+  text-shadow: 1px 1px #d4a4a5;
 }
 h2 {
   text-align: center;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: var(--fourth-color);
 }
 
 body {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   margin-top: 100px 0;
   background-image: url(/images/background.png);
   scroll-behavior: smooth;
@@ -72,7 +75,7 @@ ul {
     font-weight: 800;
     color: #050505;
     text-shadow: 1px 1px #cda2a3;
-    font-family: "Nunito", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
@@ -89,7 +92,7 @@ lord-icon{
   }
 
 #our-services{
-  background: #e9dcd3;
+  background: #FFFCD5;
 }
 
 #events {
@@ -112,7 +115,7 @@ lord-icon{
 }
 
 #custom-desserts{
-  background: #e9dcd3;
+  background: #FFFCD5;
 }
 
 #ready-menu-wrapper{
@@ -122,7 +125,7 @@ lord-icon{
 /* Social Media Gif */
 
 .fa-square-instagram{
-  color:#cda2a3;
+  color:#FFFCD5;
   background-color: #000000;
   padding: 2.5px 5px;
   border-radius: 5px;
@@ -155,8 +158,6 @@ lord-icon{
 #contact-header{
   margin-bottom: 60px;
   margin-top: 100px;
-  font-size: 60px;
-  text-shadow: 1px 1px #cda2a3;
 }
 
 form {
@@ -186,7 +187,7 @@ form {
   }
 
   h1 {
-    font-size: 60px;
+    font-size: 40px;
   }
 
   lord-icon{

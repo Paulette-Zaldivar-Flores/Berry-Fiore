@@ -4,7 +4,7 @@
 }
 
 #carousel-button:hover {
-  background: radial-gradient(circle at -1% 57.5%, rgb(19, 170, 82) 0%, rgb(0, 102, 43) 90%);
+  background: radial-gradient(circle at 10.6% 22.1%, rgb(227, 29, 29) 0%, rgb(156, 34, 34) 100.7%);
 }
 
 .button-link {
@@ -21,5 +21,5 @@
 
 .button-link:hover {
   transition: background-color 1s ease;
-  background: radial-gradient(circle at -1% 57.5%, rgb(19, 170, 82) 0%, rgb(0, 102, 43) 90%);
+  background:  radial-gradient(circle at 10.6% 22.1%, rgb(227, 29, 29) 0%, rgb(156, 34, 34) 100.7%);
 }
