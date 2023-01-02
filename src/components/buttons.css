@@ -1,10 +1,13 @@
 
 #carousel-button{
   padding: 15px 20px;
+  box-shadow: 1px 1px #000000;
+  font-weight: 800;
 }
 
 #carousel-button:hover {
   background: radial-gradient(circle at 10.6% 22.1%, rgb(227, 29, 29) 0%, rgb(156, 34, 34) 100.7%);
+  transition: background-color 1s ease;
 }
 
 .button-link {
@@ -22,4 +25,19 @@
 .button-link:hover {
   transition: background-color 1s ease;
   background:  radial-gradient(circle at 10.6% 22.1%, rgb(227, 29, 29) 0%, rgb(156, 34, 34) 100.7%);
+}
+
+
+.button:active {
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
+}
+
+#carousel-button:active{
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
 }
