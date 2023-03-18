@@ -6,6 +6,7 @@
   -moz-animation: fadeIn ease 5s;
   -o-animation: fadeIn ease 5s;
   -ms-animation: fadeIn ease 5s;
+  filter: brightness(70%);
 }
 @keyframes fadeIn {
   0% {
@@ -118,7 +119,7 @@
 #carouselBerry .carousel-item img {
   object-fit: cover;
   object-position: center;
-  height: 42rem;
+  height: 35rem;
   overflow: hidden;
   position: relative;
   }
@@ -129,20 +130,25 @@
   filter: drop-shadow(2px 2px 4px #000);
 }
 
-.business-logo-z{
+.business-slogan-z{
+  text-align: left;
   position: absolute;
-  left: calc(50vw - 175px);
+  line-height: 5rem;
+  /* left: calc(50vw - 175px); */
   top: 200px;
   z-index: 1;
-  width: 350px;
+  padding: 55px;
+  color: #ffffff;
+  text-shadow: 1px 1px #8f8f8f;
 }
 
 .carousel-button-z{
   position: absolute;
-  left: calc(50vw - 70px);
-  top: 580px;
+  /* left: calc(50vw - 50px); */
+  top: 540px;
   z-index: 1;
   font-size: 30px;
+  padding-left: 70px;
 }
 
 #business {
@@ -150,4 +156,36 @@
   text-align: left;
   padding: 30px 30px;
   font-family: "Josefin Sans", sans-serif;
+}
+
+
+@media (max-width: 600px){
+
+  .business-slogan-z {
+    text-align: left;
+    position: absolute;
+    line-height: 3rem;
+    /* left: calc(50vw - 175px); */
+    top: 80px;
+    z-index: 1;
+    padding-left: 20px;
+    padding-right: 10px;
+    color: #ffffff;
+    text-shadow: 1px 1px #8f8f8f;
+    font-size: 35px;
+  }
+
+  .carousel-button-z{
+    position: absolute;
+    left: calc(50vw - 50px);
+    top: 100px;
+    z-index: 1;
+    font-size: 25px;
+    padding: 0;
+  }
+
+  #carouselBerry .carousel-item img {
+  height: 30rem;
+  }
+
 }

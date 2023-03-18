@@ -1,12 +1,19 @@
 
-#carousel-button{
+.carousel-button{
   padding: 15px 20px;
   box-shadow: 1px 1px #000000;
-  font-weight: 800;
+  background: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
+  border-radius: 10px;
+  box-shadow: 1px 1px #000000;
+  text-decoration: none;
+  color: #595757 !important;
+  font-weight: bold !important;
+  font-size: 20px;
+  line-height: 30px;
 }
 
-#carousel-button:hover {
-  background: radial-gradient(circle at 10.6% 22.1%, rgb(227, 29, 29) 0%, rgb(156, 34, 34) 100.7%);
+.carousel-button:hover {
+  background: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
   transition: background-color 1s ease;
 }
 
