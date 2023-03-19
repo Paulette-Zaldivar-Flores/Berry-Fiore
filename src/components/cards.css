@@ -12,6 +12,7 @@
 
 .custom-card{
   border: 2px solid #fecfef !important;
+  outline: none;
 
 }
 
