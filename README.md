@@ -1,5 +1,5 @@
 # Berry Fiore Webpage 🌹
-> A multi page website for a sweets company based in San Diego, California.
+> A landing page for a sweets company based in San Diego, California.
 > Live demo [_here_](https://berry-fiore.netlify.app).
 
 ## Table of Contents
@@ -38,7 +38,7 @@
 
 
 ## Screenshots
-<img width="1260" alt="Screen Shot 2565-12-04 at 20 53 36" src="https://user-images.githubusercontent.com/96970580/205488916-22c39f50-7dd6-4502-b25d-455b6280f331.png">
+<img width="1280" alt="Screen Shot 2566-03-19 at 19 46 44" src="https://user-images.githubusercontent.com/96970580/226171416-7f57b6f6-0eb3-4752-8d5c-649c313b6e96.png">
 
 
 
@@ -47,7 +47,7 @@
 
 ## Project Status
 <ul>
-<li>Project is: in progress</li></ul>
+<li>Project is: in continous progress</li></ul>
 
 
 ## Room for Improvement
