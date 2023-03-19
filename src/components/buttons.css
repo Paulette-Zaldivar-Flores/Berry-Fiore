@@ -2,25 +2,27 @@
 .carousel-button{
   padding: 15px 20px;
   box-shadow: 1px 1px #000000;
-  background: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
-  border-radius: 10px;
-  box-shadow: 1px 1px #000000;
+  background: rgba(128, 128, 128, 0.182);
+  border-radius: 5px;
+  border: 3px solid #fecfef;
   text-decoration: none;
-  color: #595757 !important;
+  text-transform: capitalize;
+  color: white !important;
   font-weight: bold !important;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 30px;
 }
 
 .carousel-button:hover {
-  background: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+  background: black;
   transition: background-color 1s ease;
 }
 
 .button-link {
-	background: radial-gradient(circle at 10.6% 22.1%, rgb(206, 18, 18) 0%, rgb(122, 21, 21) 100.7%);
-  border-radius: 50px;
-  box-shadow: 1px 1px #000000;
+	background: black;
+  border-radius: 10px;
+  box-shadow: 3px 3px #0000006a;
+  border: 3px solid #fecfef;
   text-decoration: none;
   color: #fff !important;
   font-weight: 800;
@@ -31,7 +33,10 @@
 
 .button-link:hover {
   transition: background-color 1s ease;
-  background:  radial-gradient(circle at 10.6% 22.1%, rgb(227, 29, 29) 0%, rgb(156, 34, 34) 100.7%);
+  background:  #fecfef ;
+  color: #000000 !important;
+  border: 3px solid #000000;
+
 }
 
 
@@ -47,4 +52,14 @@
   /* Scaling button to 0.98 to its original size */
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
   /* Lowering the shadow */
+}
+
+
+@media (max-width: 600px){
+
+  .carousel-button{
+    font-size: 20px;
+  }
+
+
 }

@@ -1,9 +1,10 @@
 .card {
   margin: 0 auto;
   margin-bottom: 10px;
-  border: 3px solid #c2bfbf;
+  /* border: 3px solid #fecfef; */
+  outline: solid 5px #fecfef;
   border-radius: 5px;
-  box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+  box-shadow: inset 0 -3em 3em rgba(233, 229, 229, 0.769),
   0 0  0 2px rgb(190, 190, 190),
   0.3em 0.3em 1em rgba(0,0,0,0.3);
   position: relative;
@@ -27,12 +28,12 @@
   object-fit: cover;
 }
 
-img {
+/* img {
   padding-top: 0;
   padding-bottom: 0;
   display: block;
   max-width: 100%;
-}
+} */
 
 #services {
   background-color: #ffffff00;
@@ -55,19 +56,19 @@ img {
 
 
 .card-price-info .price{
-  background: radial-gradient(circle at 10% 20%, rgb(221, 49, 49) 0%, rgb(119, 0, 0) 90%);
-  color:white;
+  background: black;
+  color: white;
   font-weight: bold;
   height: 80px;
   width:80px;
   border-radius: 50%;
-  border: 1px solid rgb(91, 91, 91);
+  outline: solid 2px #d3a0c3;
   padding-top: 30px;
   font-size: 16px;
   position: absolute;
   bottom: 35px;
   right: 5px;
-  text-shadow: 1px 1px 1px rgb(67, 66, 66);
+  text-shadow: 1px 1px 1px rgb(208, 204, 204);
 
 }
 

@@ -17,7 +17,7 @@
 }
 
 .navbar-custom {
-  background-color: #850101;
+  background-color: #000000;
 }
 
 .navbar ul li {
@@ -35,12 +35,12 @@ nav .navbar-nav li a {
 }
 
 nav .navbar-nav li a:hover {
-  color: #cda2a3 !important;
+  color: #ec75c7 !important;
   transition: ease-in 0.3s;
 }
 
 .navbar .nav-item > .nav-link.active {
-  color:  #aeaaaa  !important;
+  color: #ec75c7 !important;
 
 }
 
@@ -59,7 +59,16 @@ a.nav-link {
 
 .logo {
   padding: 0 px;
-  max-width: 100px;
-  border-radius: 5px;
-  border: 1px solid #be1e2f;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid #ef79c9;
+}
+
+
+@media (max-width: 600px){
+.logo{
+  width: 80px;
+
+}
+
 }

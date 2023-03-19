@@ -6,6 +6,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;500&family=Marck+Script&family=Roboto:wght@300&display=swap');
+
+
+
 /* Fontawesome */
 @import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
 
@@ -50,12 +54,12 @@ h1 {
 }
 h2 {
   text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--fourth-color);
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'IBM Plex Serif', serif;
   margin-top: 100px 0;
   /* background-image: url(/images/background.png); */
   scroll-behavior: smooth;
@@ -67,6 +71,7 @@ ul {
   line-height: 2em;
   padding: 20px 20px;
   text-align: left;
+  /* padding-bottom: 50px; */
 }
 
 /* Sections */
@@ -76,7 +81,7 @@ ul {
     font-weight: 800;
     color: #050505;
     text-shadow: 1px 1px #cda2a3;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
@@ -103,7 +108,7 @@ lord-icon{
 }
 
 #ready-menu{
-  background-color:#850101;
+  background-color:#000000;
   text-align: center;
 }
 
@@ -114,8 +119,14 @@ lord-icon{
   color: #ffffff;
 }
 
-#custom-desserts, #contact-us{
+#custom-desserts{
   background-image:none;
+  background-color: white;
+}
+
+#contact-us{
+  background-color:#f5ebee;
+
 }
 
 /* #custom-desserts{
@@ -210,10 +221,12 @@ form {
 
   .card-text{
     font-size:16px;
+    font-family: 'IBM Plex Serif', serif;
   }
 
   #catering-list{
     font-size:18px;
+
   }
 
   #location {

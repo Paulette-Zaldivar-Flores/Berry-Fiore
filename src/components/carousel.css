@@ -135,19 +135,21 @@
   position: absolute;
   line-height: 5rem;
   /* left: calc(50vw - 175px); */
-  top: 200px;
+  top: 150px;
   z-index: 1;
   padding: 55px;
+  padding-right: 300px;
   color: #ffffff;
   text-shadow: 1px 1px #8f8f8f;
+  font-size: 45px;
 }
 
 .carousel-button-z{
   position: absolute;
   /* left: calc(50vw - 50px); */
-  top: 540px;
+  top: 500px;
   z-index: 1;
-  font-size: 30px;
+  font-size:15px;
   padding-left: 70px;
 }
 
@@ -177,12 +179,15 @@
 
   .carousel-button-z{
     position: absolute;
-    left: calc(50vw - 50px);
+    left: calc(50vw - 150px);
     top: 100px;
     z-index: 1;
-    font-size: 25px;
-    padding: 0;
   }
+
+
+
+
+
 
   #carouselBerry .carousel-item img {
   height: 30rem;
