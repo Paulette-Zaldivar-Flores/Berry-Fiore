@@ -85,11 +85,6 @@ footer .email a {
 }
 
 
-
-/* .small {
-  text-align: center;
-} */
-
 #footer-logo{
   display: block;
   margin-left: auto;
@@ -99,4 +94,5 @@ footer .email a {
   width: 80px;
   border-radius: 50%;
   box-shadow: 2px 2px 3px #1d1c1c94;
+  border: 2px solid #ef79c9;
 }

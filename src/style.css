@@ -6,8 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;500&family=Marck+Script&family=Roboto:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;500&family=Marck+Script&family=Roboto:wght@300&family=Rubik+Mono+One&display=swap');
 
 
 /* Fontawesome */
@@ -48,10 +48,13 @@ body {
 
 h1 {
   text-align: center;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Rubik Mono One', sans-serif;
   font-size: 60px;
-  text-shadow: 1px 1px #d4a4a5;
+  text-shadow: 2px 2px #d4a4a5;
 }
+
+
+
 h2 {
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -76,6 +79,7 @@ ul {
 
 /* Sections */
 
+
 .container1  {
     font-size: 20px;
     font-weight: 800;
@@ -97,9 +101,6 @@ lord-icon{
     margin-bottom: 40px;
   }
 
-/* #our-services{
-  background: #FFFCD5;
-} */
 
 #events {
   background-image: url(/images/section2.png);
@@ -124,41 +125,31 @@ lord-icon{
   background-color: white;
 }
 
-#contact-us{
-  background-color:#f5ebee;
-
+.instagram-title{
+  font-family: 'Marck Script', cursive;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 0px;
+  text-shadow: 1px 1px #fa05e6;
+  text-decoration: underline;
 }
 
-/* #custom-desserts{
-  background: #FFFCD5;
-} */
+#contact-us{
+  background-color:#f5ebee;
+}
 
 #ready-menu-wrapper{
   text-align: center;
 }
 
 /* Social Media Gif */
-
-.fa-square-instagram{
-  color:#FFFCD5;
-  background-color: #000000;
-  padding: 2.5px 5px;
-  border-radius: 5px;
-}
-
-.fa-square-instagram:hover{
-  background-color: #6b6565;
-}
-
 #custom {
   text-align:left;
   padding-left: 200px;
   padding-right: 200px;
   font-size: 25px;
   font-weight: bold;
-
   color:var(--third-color);
-
 }
 
 #note-customer{

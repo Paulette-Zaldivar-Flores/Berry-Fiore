@@ -1,7 +1,6 @@
 .card {
   margin: 0 auto;
   margin-bottom: 10px;
-  /* border: 3px solid #fecfef; */
   outline: solid 5px #fecfef;
   border-radius: 5px;
   box-shadow: inset 0 -3em 3em rgba(233, 229, 229, 0.769),
@@ -10,13 +9,9 @@
   position: relative;
 }
 
-.custom-card{
-  border: 5px solid #fecfef !important;
-  outline: none;
-
+.card:hover {
+  transform: scale(1.05);
 }
-
-
 
 .card-text{
   font-weight: bold;
@@ -30,18 +25,10 @@
   padding-bottom: 0px;
 }
 .card-img-top {
-  /* max-width: 300px;
-  max-height: 300px; */
   border-radius: 2px;
   object-fit: cover;
 }
 
-/* img {
-  padding-top: 0;
-  padding-bottom: 0;
-  display: block;
-  max-width: 100%;
-} */
 
 #services {
   background-color: #ffffff00;
@@ -80,17 +67,7 @@
 
 }
 
-/*Custom Desserts Card*/
-
-#custom-desserts .card{
-  border-radius: 50%;
-}
-
-#custom-desserts .card-img-top{
-  border-radius: 50%;
-}
-
-/*Reveal Text Animation*/
+/*Ready Menu */
 
 .on-hover-reveal-text {
   position: relative;
@@ -114,37 +91,73 @@
   text-align: center;
 }
 
+
 .on-hover-reveal-text:hover .card-img-top {
-  opacity: 0.7;
+  filter: brightness(50%);
 }
 
 .on-hover-reveal-text:hover .middle {
   opacity: 1;
 }
 
-.text {
-  text-decoration: none;
-  font-size: 60px;
-}
-
 .ready-menu-card-text{
   font-size: 16px;
   color: white;
-  background-color: #0000008e;
   border-radius: 5px;
 }
 
 .ready-menu-card-text ul {
   list-style: none;
-  line-height: 2em;
-  padding: 25px 200px 25px 200px;
+  padding-top: 0px;
   display: inline;
   text-align: center;
+  height: 100%;
+  max-width: 100%;
+
 }
 
 .ready-menu-card-text li{
   margin: 0;
 }
+
+
+ /* Custom Services Card */
+
+.on-hover-reveal-text-custom:hover .card-img-top{
+  filter: brightness(70%);
+
+}
+
+.on-hover-reveal-text-custom:hover .middle{
+  opacity: 1;
+}
+
+.text {
+  text-decoration: none;
+  font-size: 50px;
+
+}
+
+.instagram{
+  font-family: 'Marck Script', cursive;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 0px;
+  text-shadow: 1px 1px #fa05e6;
+}
+
+.fa-square-instagram{
+  color:#fecfef;
+  background-color: #000000;
+  padding: 2.5px 5px;
+  border-radius: 5px;
+}
+
+.fa-square-instagram:hover{
+  background-color: #6b6565;
+}
+
+
 
 #events-card-font{
   color: white;
