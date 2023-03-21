@@ -84,7 +84,6 @@
 
 .carousel-button-z{
   position: absolute;
-  /* left: calc(50vw - 50px); */
   top: 500px;
   z-index: 1;
   font-size:15px;
@@ -96,6 +95,15 @@
   text-align: left;
   padding: 30px 30px;
   font-family: "Josefin Sans", sans-serif;
+}
+
+.cater-carousel img{
+  height: 600px;
+  width: 250px;
+  object-fit: cover;
+  border: solid 3px #fecfef;
+  border-radius: 10px;
+  filter: brightness(70%);
 }
 
 
@@ -122,13 +130,13 @@
     z-index: 1;
   }
 
-
-
-
-
-
   #carouselBerry .carousel-item img {
   height: 35rem;
+  }
+
+  .cater-carousel img{
+    height: 60%;
+    width: 60%;
   }
 
 }

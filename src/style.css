@@ -20,6 +20,7 @@
 @import url("components/buttons.css");
 @import url("components/footer.css");
 @import url("components/particle.css");
+@import url("components/modal.css");
 
 
 .root {
@@ -103,8 +104,7 @@ lord-icon{
 
 
 #events {
-  background-image: url(/images/section2.png);
-  background-size: cover;
+  background-color: #6b6565;
   display: block;
 }
 
@@ -122,7 +122,7 @@ lord-icon{
 
 #custom-desserts{
   background-image:none;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .instagram-title{
@@ -132,6 +132,10 @@ lord-icon{
   margin-bottom: 0px;
   text-shadow: 1px 1px #fa05e6;
   text-decoration: underline;
+}
+
+.cater-title{
+  color: #ffffff;
 }
 
 #contact-us{
@@ -215,10 +219,7 @@ form {
     font-family: 'IBM Plex Serif', serif;
   }
 
-  #catering-list{
-    font-size:18px;
 
-  }
 
   #location {
     font-size: 18px;

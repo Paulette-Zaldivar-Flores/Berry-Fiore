@@ -40,8 +40,6 @@
   padding-left: 30px;
   padding-right: 30px;
   text-align: left;
-  padding-left: 30px;
-  padding-right: 30px;
   font-size: 30px;
   font-weight: 800;
   color: #050505;
@@ -155,12 +153,4 @@
 
 .fa-square-instagram:hover{
   background-color: #6b6565;
-}
-
-
-
-#events-card-font{
-  color: white;
-  text-shadow: 1px 1px #161616;
-
 }
