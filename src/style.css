@@ -139,7 +139,7 @@ lord-icon{
 }
 
 #contact-us{
-  background-color:#000000;
+  background-color:#fecfef;
   padding-top: 30px;
 }
 
@@ -171,6 +171,7 @@ lord-icon{
     width: 300px;
     display: block;
   margin: 0 auto;
+  border-radius: 5px;
 
 
   }
@@ -188,7 +189,7 @@ form {
 }
 
 .form-control{
-  border: 3px solid #fecfef;
+  border: 3px solid #000000;
 }
 
 /* FAQ Page */
@@ -260,6 +261,10 @@ form {
 }
 
 @media (max-width: 600px){
+  h1 {
+    font-size: 35px;
+  }
+
   .business-logo-z{
     top: 120px;
   }
@@ -274,5 +279,9 @@ form {
 
   #note-customer{
     width: 300px;
+  }
+
+  .text{
+    font-size: 30px;
   }
 }

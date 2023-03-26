@@ -25,7 +25,7 @@ color: var(--third-color);
 }
 
 footer {
-  color: #000000;
+  color: #ffffff;
   padding-top: 30px;
   margin-bottom: 0px;
   width: 100%;
@@ -35,7 +35,7 @@ footer {
 
 footer {
   position: relative;
-  background: #fecfef;
+  background: #000000;
 }
 
 footer::before,
@@ -64,7 +64,7 @@ footer .email a {
   font-family: "Josefin Sans", sans-serif;
 }
 
-#contact-us i {
+/* #contact-us i {
   margin-top: 10px;
   font-size: 40px;
   color: var(--third-color);
@@ -73,10 +73,10 @@ footer .email a {
 }
 #contact-us i:hover {
   color: var(--secondary-color);
-}
+} */
 
 .link {
-  color: rgb(0, 0, 0);
+  color: white;
   margin-left: 20px;
 }
 
@@ -94,5 +94,5 @@ footer .email a {
   width: 80px;
   border-radius: 50%;
   box-shadow: 2px 2px 3px #1d1c1c94;
-  border: 2px solid #000000;
+  border: 2px solid #EF79C9;
 }
