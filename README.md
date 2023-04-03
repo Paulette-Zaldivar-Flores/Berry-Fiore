@@ -1,4 +1,4 @@
-# Berry Fiore Webpage 🌹
+# Berry Fiore Webpage 🌸🧁
 > A landing page for a sweets company based in San Diego, California.
 > Live demo [_here_](https://berry-fiore.netlify.app).
 
@@ -53,7 +53,8 @@
 ## Room for Improvement
 <ul>
         
-<li>Improve the layout</li></ul>
+<li>Improve the layout</li>
+<li>Scrape instagram for latest images and videos of company page</li></ul>
 
 
 To do:
