@@ -1,5 +1,5 @@
 # Berry Fiore Webpage 🌸🧁
-> A landing page for a sweets company based in San Diego, California.
+> A landing page for a sweets and treats company based in San Diego, California.
 > Live demo [_here_](https://berry-fiore.netlify.app).
 
 ## Table of Contents
