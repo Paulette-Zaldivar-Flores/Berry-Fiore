@@ -1,5 +1,5 @@
-# Berry Fiore Webpage 🌹
-> A landing page for a sweets company based in San Diego, California.
+# Berry Fiore 🌸🧁
+> Welcome to Berry Fiore, where we bring the magic of sweet indulgence to San Diego! Explore our daily menu filled with an array of handcrafted delights, including velvety truffles, mesmerizing pastries, and tantalizing treats that will transport your taste buds to pure bliss. Looking for something extra special? Our custom menu options are designed to cater to your unique cravings, ensuring a personalized experience that will leave you craving for more. Discover the joy of extraordinary flavors and contact us today to embark on a sweet adventure like no other.
 > Live demo [_here_](https://berry-fiore.netlify.app).
 
 ## Table of Contents
@@ -53,7 +53,8 @@
 ## Room for Improvement
 <ul>
         
-<li>Improve the layout</li></ul>
+<li>Improve the layout</li>
+<li>Scrape instagram for latest images and videos of company page</li></ul>
 
 
 To do:
