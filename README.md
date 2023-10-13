@@ -20,8 +20,8 @@
 <ul>
  <li>HTML5</li>
 <li>CSS3 </li>
-<li>Responsive Web Development
-</li> </ul>
+<li>Responsive Web Development</li>
+<li>jQuery</li></ul>
 
 ## Framework 
 <ul>
