@@ -82,7 +82,7 @@
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -91,7 +91,7 @@
 
 
 .on-hover-reveal-text:hover .card-img-top {
-  filter: brightness(50%);
+  filter: brightness(20%);
 }
 
 .on-hover-reveal-text:hover .middle {
