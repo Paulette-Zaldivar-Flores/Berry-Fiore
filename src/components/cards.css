@@ -17,7 +17,7 @@
   font-weight: bold;
   padding-top: 25px;
   padding-bottom: 0px;
-  font-family:'Source Sans Pro', sans-serif;
+  font-family:'Poppins';
 }
 
 .card-body{
@@ -46,24 +46,6 @@
   text-shadow: 1px 1px black;
 }
 
-
-
-.card-price-info .price{
-  background: black;
-  color: white;
-  font-weight: bold;
-  height: 80px;
-  width:80px;
-  border-radius: 50%;
-  border: solid 2px #d3a0c3;
-  padding-top: 30px;
-  font-size: 16px;
-  position: absolute;
-  bottom: 35px;
-  right: 5px;
-  text-shadow: 1px 1px 1px rgb(208, 204, 204);
-
-}
 
 /*Ready Menu */
 
@@ -102,6 +84,7 @@
   font-size: 16px;
   color: white;
   border-radius: 5px;
+  font-weight: bold;
 }
 
 .ready-menu-card-text ul {
@@ -111,6 +94,7 @@
   text-align: center;
   height: 100%;
   max-width: 100%;
+  font-weight: bold;
 
 }
 
