@@ -69,34 +69,24 @@
   filter: drop-shadow(2px 2px 4px #000);
 }
 
-.business-slogan-z{
-  text-align: left;
+.business-slogan-z {
   position: absolute;
-  line-height: 5rem;
-  font-family: 'Libre Baskerville', serif;
   top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 1;
-  padding: 55px;
-  padding-right: 300px;
+  padding: 0 30px; /* safer than fixed 300px */
   color: #ffffff;
-  text-shadow: 1px 1px #8f8f8f;
-  font-size: 45px;
+  font-size: 100px;
+  line-height: 1.4;
+  text-align: center;
+  text-shadow:
+  2px 2px 6px #ff69b4,    /* Hot pink glow */
+  0px 0px 4px #ffb6c1;    /* Light pink halo for depth */
+  font-family: 'Great Vibes', cursive;
 }
 
-.carousel-button-z{
-  position: absolute;
-  top: 500px;
-  z-index: 1;
-  font-size:15px;
-  padding-left: 70px;
-}
 
-#business {
-  text-align: justify;
-  text-align: left;
-  padding: 30px 30px;
-  font-family: "Josefin Sans", sans-serif;
-}
 
 .cater-carousel img{
   height: 600px;
@@ -111,33 +101,37 @@
 @media (max-width: 600px){
 
   .business-slogan-z {
-    text-align: left;
     position: absolute;
-    line-height: 3rem;
-    /* left: calc(50vw - 175px); */
-    top: 80px;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 1;
-    padding-left: 20px;
-    padding-right: 10px;
+    width: 90vw; /* Allow it to span most of the screen */
+    padding: 0 5vw; /* More flexible than fixed px padding */
     color: #ffffff;
-    text-shadow: 1px 1px #8f8f8f;
-    font-size: 35px;
+    text-align: center;
+    line-height: 3.5rem; /* More spacing between lines */
+    font-size: 42px;
+    font-family: 'Great Vibes', cursive;
+    text-shadow:
+      2px 2px 6px #ff69b4,
+      0px 0px 4px #ffb6c1;
   }
 
-  .carousel-button-z{
-    position: absolute;
-    left: calc(50vw - 150px);
-    top: 100px;
-    z-index: 1;
-  }
 
-  #carouselBerry .carousel-item img {
-  height: 35rem;
-  }
 
-  .cater-carousel img{
-    height: 60%;
-    width: 60%;
-  }
+    #carouselBerry .carousel-item img {
+      height: 20rem; /* Reduce height from 35rem to something more compact */
+      object-fit: cover; /* Keeps image from stretching */
+    }
+
+    .cater-carousel img {
+      height: auto;
+      width: 80%; /* Better visual impact on mobile */
+    }
+
+
+
+
 
 }

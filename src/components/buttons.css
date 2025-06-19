@@ -1,4 +1,4 @@
-
+/*
 .carousel-button{
   padding: 15px 20px;
   box-shadow: 1px 1px #000000;
@@ -16,7 +16,7 @@
 .carousel-button:hover {
   background: black;
   transition: background-color 1s ease;
-}
+} */
 
 .button-link {
 	background: black;
