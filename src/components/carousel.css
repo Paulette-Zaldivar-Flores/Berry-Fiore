@@ -81,8 +81,8 @@
   line-height: 1.4;
   text-align: center;
   text-shadow:
-  2px 2px 6px #ff69b4,    /* Hot pink glow */
-  0px 0px 4px #ffb6c1;    /* Light pink halo for depth */
+  2px 2px 6px #e79cc1,    /* Hot pink glow */
+  0px 0px 4px #e706d0;    /* Light pink halo for depth */
   font-family: 'Great Vibes', cursive;
 }
 
@@ -94,7 +94,13 @@
   object-fit: cover;
   border: solid 3px #fecfef;
   border-radius: 10px;
-  filter: brightness(70%);
+  filter: brightness(80%);
+}
+
+.carousel-caption{
+  text-shadow: 2px 2px 6px #ff69b4,    /* Hot pink glow */
+  0px 0px 4px #ffb6c1;    /* Light pink halo for depth */
+
 }
 
 

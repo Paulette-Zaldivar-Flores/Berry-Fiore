@@ -3,9 +3,6 @@
   margin-bottom: 10px;
   outline: solid 5px #fecfef;
   border-radius: 5px;
-  box-shadow: inset 0 -3em 3em rgba(233, 229, 229, 0.769),
-  0 0  0 2px rgb(190, 190, 190),
-  0.3em 0.3em 1em rgba(0,0,0,0.3);
   position: relative;
 }
 
@@ -15,8 +12,8 @@
 
 .card-text{
   font-weight: bold;
-  padding-top: 25px;
-  padding-bottom: 0px;
+  padding-top: 5px;
+  padding-bottom: 10px;
   font-family:'Poppins';
 }
 
